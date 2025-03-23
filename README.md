@@ -112,8 +112,8 @@ Delete a book (librarian only):
  
     Manages connections to the Redis server.
 
- ** Library:**
- 
+**Library:**
+
    Implements the core logic for managing books.
    Uses RedisClient to interact with Redis.
 
