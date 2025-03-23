@@ -58,6 +58,32 @@ Update book copies (librarian only):
 Delete a book (librarian only):
     ./LibraryCLI <username> <password> delete <isbn>
 
+**Sample Output:**
+      ./LibraryCLI admin admin123 add "C++ Primer" "Lippman" "9780321714116" "Programming" 2013 10 "C++ book for beginners."
+      ./LibraryCLI admin admin123 add "C++ Complete Reference" "Herbert Schildt" "97803217141344" "Programming" 2002 10 "C++ Complete Reference."
+      ./LibraryCLI admin admin123 list
+            {
+                "author": "Lippman",
+                "borrowingStatus": "Available",
+                "copiesAvailable": 10,
+                "description": "C++ book for beginners.",
+                "genre": "Programming",
+                "isbn": "9780321714116",
+                "publicationYear": 2013,
+                "title": "C++ Primer"
+            }
+            {
+                "author": "Herbert Schildt",
+                "borrowingStatus": "Available",
+                "copiesAvailable": 10,
+                "description": "C++ Complete Reference.",
+                "genre": "Programming",
+                "isbn": "97803217141344",
+                "publicationYear": 2002,
+                "title": "C++ Complete Reference"
+            }
+
+
 **Design and Implementation**
 Key Components
  **RedisClient:**
