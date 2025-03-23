@@ -60,8 +60,11 @@ Delete a book (librarian only):
 
 **Sample Output:**
       ./LibraryCLI admin admin123 add "C++ Primer" "Lippman" "9780321714116" "Programming" 2013 10 "C++ book for beginners."
+		
       ./LibraryCLI admin admin123 add "C++ Complete Reference" "Herbert Schildt" "97803217141344" "Programming" 2002 10 "C++ Complete Reference."
+		
       ./LibraryCLI admin admin123 list
+		
             {
                 "author": "Lippman",
                 "borrowingStatus": "Available",
